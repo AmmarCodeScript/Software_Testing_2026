@@ -1,4 +1,4 @@
-// package assigs2025.assig2;
+package assigs2025.assig2;
 
 public class Exemption {
     public double getExemptionValue(int nthchild) {
@@ -18,4 +18,5 @@ public class Exemption {
 
         return value;
     }
+
 }

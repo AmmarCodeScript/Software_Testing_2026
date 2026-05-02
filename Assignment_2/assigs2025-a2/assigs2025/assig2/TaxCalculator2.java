@@ -1,13 +1,15 @@
+package assigs2025.assig2;
+
 public class TaxCalculator2 {
 
     Exemption ex;
 
-    TaxCalculator2() {
+    TaxCalculator2(){
         System.out.println("Calculator2 initialized");
         ex = new Exemption();
     }
 
-    public double computeTax(double income, int[] childAgeList) {
+    public double computeTax(double income, int[] childAgeList){
 
         System.out.println("Computing tax....");
         double taxAmount;
@@ -37,12 +39,13 @@ public class TaxCalculator2 {
         return taxAmount;
     }
 
+
     private double getTaxExemption(int[] childAgeList) {
         // calculates child benefit
         double benefit = 0.0;
         int noMinorChildren = 0;
 
-        for (int childAge : childAgeList) {
+        for (int childAge: childAgeList) {
             // tax exemption is given only for minor children
 
             if (childAge < 18) {
