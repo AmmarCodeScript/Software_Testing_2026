@@ -8,4 +8,5 @@ The integration between methods was successfully tested by:
 
 The system correctly computes tax across all tested cases.
 
-![alt text](<Pictures/Task 1 Success 100%.png>)
+
+![alt text](./Pictures/Task_1_Success.png)
