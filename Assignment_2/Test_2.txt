@@ -1,0 +1,22 @@
+=> Run PitTest
+in Terminal :
+mvn org.pitest:pitest-maven:mutationCoverage
+
+ASSIGNMENT_2/
+  ├── src/
+  │     ├── App.java
+  │     └── AppTest.java
+  ├── pom.xml    (här)
+
+  cd "D:\ABO\Abo Github\Software_Testing_2026\Assignment_2"
+
+
+  "C:\Program Files\Apache\Maven\apache-maven-3.9.15\bin\mvn.cmd" org.pitest:pitest-maven:mutationCoverage
+
+& "C:\Program Files\Apache\Maven\apache-maven-3.9.15\bin\mvn.cmd" -version
+
+& "C:\Program Files\Apache\Maven\apache-maven-3.9.15\bin\mvn.cmd" org.pitest:pitest-maven:mutationCoverage
+
+ & "C:\Program Files\Apache\Maven\apache-maven-3.9.15\bin\mvn.cmd" mvn clean test
+
+& "C:\Program Files\Apache\Maven\apache-maven-3.9.15\bin\mvn.cmd" Tests run:5

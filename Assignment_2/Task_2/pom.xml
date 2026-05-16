@@ -25,8 +25,6 @@
                 <groupId>org.pitest</groupId>
                 <artifactId>pitest-maven</artifactId>
                 <version>1.15.0</version>
-
-                <!-- ✅ HÄR ÄR DIN CONFIGURATION -->
                 <configuration>
 
                     <targetClasses>
